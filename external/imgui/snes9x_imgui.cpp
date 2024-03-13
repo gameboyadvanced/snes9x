@@ -22,7 +22,7 @@ static void ImGui_DrawPressedKeys(int spacing)
 {
 
     const std::array<const char *, 15> keynames =
-        { " ", " ", " ", "R", "L", "X", "A", "→", "←", "↓", "↑", "St", "Sel", "Y", "B" };
+        { " ", " ", " ", "R", "L", "X", "A", ">", "<", "V", "|", "St", "Sel", "Y", "B" };
     const std::array<int, 12> keyorder =
         { 10, 9, 8, 7, 6, 14, 13, 5, 4, 3, 11, 12 }; // < ^ > v   A B Y X  L R  S s
 
